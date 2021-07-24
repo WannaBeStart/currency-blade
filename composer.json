@@ -11,11 +11,12 @@
     "authors": [
       {
           "name": "wannabestart",
-          "email": "wannabstart2020@gmail.com"
+          "email": "wannabstart2020@gmail.com".
+          "homepage": "https://wannabestart.com",
       }
     ],
     "require": {
-      "php":">=5.6.4|^8.0",
+      "php":">=5.6.4|>=8.0",
       "illuminate/support":">=5.4",
       "illuminate/view":">=5.4"
     },
