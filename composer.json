@@ -1,0 +1,23 @@
+{
+    "name": "currency-blade",
+    "description": "Package to formatting currency in blade view",
+    "authors": [
+      {
+          "name": "wannabestart",
+          "email": "wannabstart2020@gmail.com"
+      }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wannabestart\\CurrencyBlade\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "wannabestart\\CurrencyBlade\\CurrencyBladePackageServiceProvider"
+            ]
+        }
+    }
+}
